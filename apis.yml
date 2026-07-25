@@ -1,8 +1,26 @@
 aid: cyberhaven
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cyberhaven.png
 name: Cyberhaven
-description: 'Cyberhaven is a company surfaced as a portfolio company of costanoa-ventures, redpoint-ventures,
-  wing-venture-capital and added to the API Evangelist network as a stub for enrichment. Sector: security.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Cyberhaven is a data security company that unifies Data Security Posture
+  Management (DSPM), Data Loss Prevention (DLP), Insider Risk Management, and AI Security
+  into a single AI and data security platform. Its data lineage-first architecture traces
+  data from origin to exfiltration across endpoints, cloud, on-prem, SaaS, and AI tools,
+  coaching users and blocking leaks across email, web, cloud, removable storage, and
+  AI assistants. Cyberhaven exposes a REST API (v1 and v2) that lets teams pull incidents
+  into third-party security tools using API-key authentication, and integrates with
+  directory services, SIEM/SOAR platforms, and cloud applications. Backed by Costanoa
+  Ventures, Redpoint Ventures, and Wing Venture Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/cyberhaven/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Security
+- Data Security
+- Data Loss Prevention
+- DLP
+- DSPM
+- Insider Risk
+- AI Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +51,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.cyberhaven.com
+- type: DeveloperPortal
+  url: https://docs-auth.cyberhaven.io/
+- type: Documentation
+  url: https://docs-auth.cyberhaven.io/
+- type: Integrations
+  url: https://www.cyberhaven.com/product/integrations
+- type: Blog
+  url: https://www.cyberhaven.com/blog
+- type: Support
+  url: https://support.cyberhaven.com/
+- type: GitHubOrganization
+  url: https://github.com/CyberhavenInc
+- type: PrivacyPolicy
+  url: https://www.cyberhaven.com/legal/privacy-policy
+- type: SignUp
+  url: https://www.cyberhaven.com/request-demo
+- type: TrustCenter
+  url: security/cyberhaven-trust-center.yml
+- type: Compliance
+  url: https://trust.cyberhaven.com/
+- type: DomainSecurity
+  url: security/cyberhaven-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
